@@ -1,0 +1,11 @@
+production: False
+database:
+  driver: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  database: postgres
+  schema: postgres
+  max_database_connections:  10
+  max_idle_connections: 10
